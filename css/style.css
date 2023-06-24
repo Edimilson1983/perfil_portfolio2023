@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.mt {
+  margin-top: 16px;
+}
+.mt.small {
+  margin-top: 8px;
+}
+.button-larger {
+  background-color: rgb(0, 153, 68);
+  padding: 12px;
+  width: 200px;
+  border: 2px solid #f1f2f6;
+  border-radius: 5px;
+  color: #f1f2f6;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* INICIO DO CABEÇALHO */
+header {
+  padding: 15px 30px;
+  border: 2px solid rgb(0, 153, 68);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #010400;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+nav > ul {
+  list-style-type: none;
+}
+.link-cabecalho {
+  text-decoration: none;
+  color: #f1f2f6;
+  font-size: 18px;
+}
+.link-cabecalho:hover {
+  background-color: rgb(0, 153, 68);
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 17px;
+  letter-spacing: 0.1rem;
+}
+h1 {
+  color: #f1f2f6;
+  letter-spacing: 0.2rem;
+}
+button {
+  background-color: rgb(0, 153, 68);
+  padding: 12px;
+  width: 120px;
+  border: 2px solid #f1f2f6;
+  border-radius: 5px;
+  color: #f1f2f6;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  border: 2px solid transparent;
+  transition: 0.5s;
+  color: black;
+  text-decoration: underline;
+}
+/* INICIO DA PRIMEIRA SESSÃO */
+.container-principal {
+  width: 100vw;
+  height: 150vh;
+}
+.container-primeira-sessao {
+  max-width: 100%;
+  min-height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box-primeira-sessao {
+  width: 500px;
+  height: 500px;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+}
+.box-child-um-primeira-sessao {
+  padding: 30px 10px;
+}
+.box-child-um-primeira-sessao > p {
+  line-height: 1.4rem;
+  font-size: 18px;
+  font-weight: 200;
+}
+.box-child-dois-primeira-sessao {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  padding-right: 10px;
+}
+.img-perfil-primeira-sessao {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
