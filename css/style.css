@@ -71,7 +71,7 @@ button {
 button:hover {
   border: 2px solid transparent;
   transition: 0.5s;
-  color: black;
+  color: yellow;
   text-decoration: underline;
 }
 /* INICIO DA PRIMEIRA SESSÃO */
@@ -93,6 +93,9 @@ button:hover {
   /* border: 2px solid black; */
   border-radius: 5px;
 }
+.box-primeira-sessao h2 {
+  font-size: 28px;
+}
 .box-child-um-primeira-sessao {
   padding: 30px 10px;
 }
@@ -103,7 +106,7 @@ button:hover {
 }
 .box-child-dois-primeira-sessao {
   display: flex;
-  justify-content: space-between;
+  gap: 80px;
   padding: 20px 10px;
   padding-right: 10px;
 }
@@ -112,4 +115,202 @@ button:hover {
   height: 500px;
   border: 2px solid black;
   border-radius: 5px;
+}
+/* INICIO DA SEGUNDA SESSÃO */
+.container-segunda-sessao {
+  /* border: 2px solid red; */
+  width: 100vw;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-segunda-sessao h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.container-segunda-sessao h2 > strong {
+  color: rgb(0, 153, 68);
+}
+.container-segunda-sessao h2 > strong:hover {
+  background-color: rgb(0, 153, 68);
+  color: #f1f2f6;
+  padding: 5px;
+  line-height: 1.5rem;
+}
+.ability-cards-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  column-gap: 36px;
+}
+.ability-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 340px;
+  height: 560px;
+  padding: 20px;
+  border: 2px solid lightgray;
+  border-radius: 12px;
+}
+/* .card-1 {
+  background-color: orangered;
+}
+.card-2 {
+  background-color: blue;
+}
+.card-3 {
+  background-color: yellow;
+} */
+.ability-card-icon-container {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(0, 153, 68);
+}
+.icon-ability {
+  width: 60px;
+  width: 60px;
+}
+.ability-textos-container {
+  text-align: center;
+}
+.ability-textos-container h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.ability-textos-container p {
+  font-size: 20px;
+  margin-top: 8px;
+  line-height: 1.3rem;
+  padding: 0 12px;
+}
+.ability-list {
+  margin-top: 30px;
+  width: 80%;
+}
+li {
+  font-size: 20px;
+  padding-bottom: 12px;
+  font-weight: 500;
+}
+/* INICIO DA TERCEIRA SESSÃO */
+.container-terceira-sessao {
+  /* border: 2px solid red; */
+  width: 100vw;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+.container-terceira-sessao h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.container-terceira-sessao h2 > strong {
+  color: rgb(0, 153, 68);
+}
+.container-terceira-sessao h2 > strong:hover {
+  background-color: rgb(0, 153, 68);
+  color: #f1f2f6;
+  padding: 5px;
+  line-height: 1.5rem;
+}
+.container-portfolio-projetos {
+  margin: auto;
+  width: 1216px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.portfolio-projetos {
+  width: 360px;
+  height: 360px;
+  border-radius: 12px;
+  border: 2px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container-imagens-portfolio {
+  width: 220px;
+  height: 150px;
+  border: 2px solid #d1d1d1;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+.imagem-portfolio {
+  width: 100%;
+  height: 100%;
+}
+.container-title-portfolio {
+  /* border: 2px solid red; */
+}
+.container-title-portfolio h4 {
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 20px;
+}
+.container-title-portfolio p {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 10px;
+  line-height: 1.5rem;
+}
+.container-links-portfolio {
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 20px;
+}
+/* INICIO DA QUARTA SESSÃO */
+.container-quarta-sessao {
+  width: 100vw;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  border: 2px solid red;
+}
+.container-quarta-sessao h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.container-quarta-sessao h2 > strong {
+  color: rgb(0, 153, 68);
+}
+.container-quarta-sessao h2 > strong:hover {
+  background-color: rgb(0, 153, 68);
+  color: #f1f2f6;
+  padding: 5px;
+  line-height: 1.5rem;
+}
+.container-parent-experiencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container-experiencias {
+  width: 620px;
+  height: 120px;
+  border: 2px solid green;
+  border-radius: 12px;
+  background-color: darkgrey;
 }
