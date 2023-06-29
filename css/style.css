@@ -282,7 +282,7 @@ li {
   width: 100vw;
   padding-top: 68px;
   padding-bottom: 68px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .container-quarta-sessao h2 {
   margin: 0;
@@ -309,8 +309,64 @@ li {
 }
 .container-experiencias {
   width: 620px;
-  height: 120px;
+  height: 130px;
   border: 2px solid green;
   border-radius: 12px;
   background-color: darkgrey;
+  display: flex;
+}
+.container-experiencias > div > img {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.container-experiencias > div > h4 {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+.container-experiencias > div > p {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+/* INICIO DA QUARTA SESSÃO */
+.container-quinta-sessao {
+  width: 100vw;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  border: 2px solid red;
+}
+.container-quinta-sessao h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.container-quinta-sessao h2 > strong {
+  color: rgb(0, 153, 68);
+}
+.container-quinta-sessao h2 > strong:hover {
+  background-color: rgb(0, 153, 68);
+  color: #f1f2f6;
+  padding: 5px;
+  line-height: 1.5rem;
+}
+.container-contatos-quinta-sessao {
+  border: 2px solid red;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.container-link-contato {
+  border: 2px solid green;
+  width: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
